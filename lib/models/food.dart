@@ -18,8 +18,8 @@ class Food {
     return [
       Food(
           'assets/images/dish1.jpeg',
-          'No1. in Sales',
-          'Soba Soup',
+          'No1. en ventas',
+          'Ajiaco',
           '50 min',
           4.8,
           '325 kcal',
@@ -44,7 +44,7 @@ class Food {
       Food(
           'assets/images/dish2.jpeg',
           'Low Fat',
-          'Sai Ua Samun Phrai',
+          'Sancocho',
           '50 min',
           4.8,
           '325 kcal',
@@ -67,8 +67,8 @@ class Food {
           'Simply put, ramen is a japanese noodle soup, with a...'),
       Food(
           'assets/images/dish3.png',
-          'Highly Recommended',
-          'Ratatouille Pasta',
+          'Muy recomendado',
+          'Changua de leche',
           '50 min',
           4.8,
           '325 kcal',
@@ -95,9 +95,9 @@ class Food {
   static List<Food> generatePopularFoods() {
     return [
       Food(
-          'assets/images/dish4.png',
+          'assets/images/dish4.jpg',
           'Mas popular',
-          'Tomato Checken',
+          'Caldo de hueso',
           '50 min',
           4.8,
           '325 kcal',
